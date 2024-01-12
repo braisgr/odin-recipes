@@ -1,4 +1,48 @@
-img {
+body{
+  background-color: #eaf3e5;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+.title{
+  text-align: center;
+  font-size: 4rem;
+  color: #162310;
+  background-color: #8cb573;
+  margin-top: 0;
+  padding: 1rem;
+}
+
+.img {
   display: block;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
+}
+
+.links{
+  text-align: center;
+  list-style-type: none;
+}
+
+.link{
+  margin: 2rem;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+
+a{
+  text-decoration: none;
+  background-color: #8cb573;
+  padding: 0.7rem;
+  color: white;
+  border-radius: 1rem;
+}
+
+a:hover{
+  background-color: #6a984f;
 }
